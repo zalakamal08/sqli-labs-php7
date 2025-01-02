@@ -46,6 +46,13 @@ Install Instructions:
 7. Labs ready to be used, click on lesson number to open the lesson page.
 8. Enjoy the labs
 
+## Docker Container
+
+1. Install [Docker](https://www.docker.com)
+2. Run `docker pull zalakamal08/sqlilabs`
+3. Run `docker run -d -p 80:80 --name sqlilabs zalakamal08/sqlilabs:latest`
+4. Browse to <http://localhost:80>
+
 ==========================================================================================
 
 Corrosponding walkthrough video tutorials and explainations can be found at:
